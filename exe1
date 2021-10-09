@@ -1,0 +1,26 @@
+print("introduza o primeiro numero:")
+num1 = int(input())
+print("introduza o segundo numero:")
+num2 = int(input())
+soma = num1 + num2
+mult = num1 * num2
+elev = num1 ** num2
+div = int(num1 / num2)
+porc1 = num1 ** 0.5
+porc2 = num2 ** 0.5
+print(f"A mult dos dois numeros é de {mult}")
+print(f"A elev dos dois numeros é de {elev}")
+print(f"A div dos dois numeros é de {div}")
+print(f"A raiz1 dos dois numeros é de {porc1}")
+print(f"A raiz2 dos dois numeros é de {porc2}")
+
+input()
+
+
+a = int(input("digite o valor de tempo: "))
+b = int(input("digite o valor da velocidade: "))
+c = a + b
+d = float((100 * 8) / c)
+f =float (b / a)
+print("O consumo medio em litros é de: ", d, "litros, e a distancia é de: ", c, "km, e a velocidade media é de: ", f, );
+print(f'o consumo medio em litros é de: {d} e a distancia é de {c}km, e a media da velocidade é de {f}km/h')

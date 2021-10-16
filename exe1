@@ -25,3 +25,24 @@ f = (c / t)
 print("O total de litros é de: ", cons, "litros, e a distancia é de: ", c, "km, e a velocidade media é de: ", f, );
 
 print(f'o consumo medio em litros é de: {cons} e a distancia é de {c}km, e a media da velocidade é de {f}km/h')
+
+
+
+
+//exercio triangulos
+
+print("Digite os valores dos lados do triangulo respectivamente: ")
+a1 = int(input())
+a2 = int(input())
+a3 = int(input())
+if  a1 == a2 == a3:
+    print("Este é um triangulo escaleno")
+elif
+    if a1 == a2 or a2 == a3 or a3 == a1:
+        print("Este é um triangulo aaa")
+    elif
+        if a1 != a2 != a3:
+            print("Este é um triangulo bbb")
+        elif 
+        
+        print("ERROR")

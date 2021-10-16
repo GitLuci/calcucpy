@@ -35,14 +35,28 @@ print("Digite os valores dos lados do triangulo respectivamente: ")
 a1 = int(input())
 a2 = int(input())
 a3 = int(input())
-if  a1 == a2 == a3:
-    print("Este é um triangulo escaleno")
-elif
-    if a1 == a2 or a2 == a3 or a3 == a1:
-        print("Este é um triangulo aaa")
-    elif
-        if a1 != a2 != a3:
-            print("Este é um triangulo bbb")
-        elif 
-        
-        print("ERROR")
+
+b1 = a1 + a2
+b2 = a2 + a3 
+b3 = a3 + a1
+
+if b1 < a3:
+    print("Isto não é um triangulo")
+else:
+    if b2 < a1:
+        print("Isto não é um triangulo")
+    else:
+        if  b3 < a2:
+            print("Isto não é um triangulo")
+        else:
+            if  a1 == a2 == a3:
+                print("Este é um triangulo equilatero")
+            else:
+                if a1 == a2 or a2 == a3 or a3 == a1:
+                    print("Este é um triangulo isoceles")
+                else:
+                    if a1 != a2 != a3:
+                        print("Este é um triangulo escaleno")
+
+
+

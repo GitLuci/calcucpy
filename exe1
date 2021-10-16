@@ -17,10 +17,11 @@ print(f"A raiz2 dos dois numeros é de {porc2}")
 input()
 
 
-a = int(input("digite o valor de tempo: "))
-b = int(input("digite o valor da velocidade: "))
-c = a + b
-d = float((100 * 8) / c)
-f =float (b / a)
-print("O consumo medio em litros é de: ", d, "litros, e a distancia é de: ", c, "km, e a velocidade media é de: ", f, );
-print(f'o consumo medio em litros é de: {d} e a distancia é de {c}km, e a media da velocidade é de {f}km/h')
+t = int(input("digite o valor de tempo: "))
+v = int(input("digite o valor da velocidade: "))
+c = t * v
+cons = ((8 * c) / 100)
+f = (c / t)
+print("O total de litros é de: ", cons, "litros, e a distancia é de: ", c, "km, e a velocidade media é de: ", f, );
+
+print(f'o consumo medio em litros é de: {cons} e a distancia é de {c}km, e a media da velocidade é de {f}km/h')
